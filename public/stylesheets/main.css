@@ -1,107 +1,73 @@
-/* Global styles */
 body {
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-a {
-  color: #337ab7;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
+  background-color: #121212;
+  color: #FFFFFF;
 }
 
 .jumbotron {
-  background-color: #f5f5f5;
-  padding: 100px 0;
-  margin-bottom: 0;
+  background-color: #2C3539;
+  color: #66CCFF;
 }
 
-.container {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 0 15px;
+a {
+  color: #66CCFF;
 }
 
-/* Header styles */
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
+a:hover {
+  color: #FFFFFF;
 }
 
-header h1 {
-  margin: 0;
-  font-size: 24px;
-}
-
-/* Navigation styles */
-nav {
-  background-color: #f8f8f8;
-  padding: 10px;
-  margin-bottom: 15px;
-}
-
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-nav li {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-/* Button styles */
-.btn {
-  display: inline-block;
-  font-weight: 400;
-  color: #fff;
-  text-align: center;
-  vertical-align: middle;
-  background-color: #337ab7;
-  border: 1px solid #2e6da4;
-  padding: 6px 12px;
-  font-size: 14px;
-  line-height: 1.42857143;
-  border-radius: 4px;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-.btn:hover {
-  background-color: #286090;
-  border-color: #204d74;
-}
-
-.btn-primary {
-  background-color: #337ab7;
-  border-color: #2e6da4;
-}
-
-.btn-primary:hover {
-  background-color: #286090;
-  border-color: #204d74;
-}
-
-/* List styles */
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+hr {
+  border-top: 1px solid #66CCFF;
 }
 
 ul li {
+  list-style: none;
   margin-bottom: 5px;
 }
 
+ul li:before {
+  content: "•";
+  color: #66CCFF;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.alert {
+  color: #FFFFFF;
+  background-color: #2C3539;
+  border-color: #66CCFF;
+}
+
+.alert-info {
+  color: #66CCFF;
+  background-color: #2C3539;
+  border-color: #66CCFF;
+}
+
+.btn-primary {
+  background-color: #66CCFF;
+  border-color: #66CCFF;
+}
+
+.btn-primary:hover {
+  background-color: #FFFFFF;
+  color: #121212;
+}
+
 .glyphicon {
-  margin-right: 5px;
+  color: #66CCFF;
+}
+
+.glyphicon-link:before {
+  content: "\e167";
+}
+
+.lang-logo {
+  color: #66CCFF;
+}
+
+.lang-logo img {
+  max-width: 100%;
+  height: auto;
+  filter: invert(1);
 }
