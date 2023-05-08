@@ -1,13 +1,16 @@
+/* Body Styles */
 body {
   background-color: #121212;
   color: #FFFFFF;
 }
 
+/* Jumbotron Styles */
 .jumbotron {
   background-color: #2C3539;
   color: #66CCFF;
 }
 
+/* Link Styles */
 a {
   color: #66CCFF;
 }
@@ -16,22 +19,33 @@ a:hover {
   color: #FFFFFF;
 }
 
+/* Horizontal Rule Styles */
 hr {
   border-top: 1px solid #66CCFF;
 }
 
-ul li {
+/* List Styles */
+ul {
+  padding: 0;
+  margin: 0;
   list-style: none;
+}
+
+ul li {
   margin-bottom: 5px;
 }
 
 ul li:before {
-  content: "•";
-  color: #66CCFF;
-  font-size: 18px;
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
   margin-right: 10px;
+  border-radius: 50%;
+  background-color: #66CCFF;
 }
 
+/* Alert Styles */
 .alert {
   color: #FFFFFF;
   background-color: #2C3539;
@@ -44,6 +58,7 @@ ul li:before {
   border-color: #66CCFF;
 }
 
+/* Button Styles */
 .btn-primary {
   background-color: #66CCFF;
   border-color: #66CCFF;
@@ -54,6 +69,7 @@ ul li:before {
   color: #121212;
 }
 
+/* Glyphicon Styles */
 .glyphicon {
   color: #66CCFF;
 }
@@ -62,6 +78,7 @@ ul li:before {
   content: "\e167";
 }
 
+/* Logo Styles */
 .lang-logo {
   color: #66CCFF;
 }
@@ -72,12 +89,7 @@ ul li:before {
   filter: invert(1);
 }
 
-ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
+/* List Item Styles */
 li {
   padding: 0;
   margin: 0;
